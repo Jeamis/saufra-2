@@ -1,0 +1,6 @@
+{
+  "name": "Saufra Menuiseries",
+  "description": "Menuiserie et rénovation sur mesure à Mauguio et dans l'Hérault : pergolas bioclimatiques, fenêtres, volets, portes, stores et vérandas. Devis gratuit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

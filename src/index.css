@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --saufra-navy: #0B1D36;
+    --saufra-navy-mid: #0D3456;
+    --saufra-gold: #C69C4D;
+    --saufra-gold-hover: #B1883A;
+    --saufra-coral: #C92027;
+    --saufra-canvas: #F8F9FB;
+    --saufra-surface: #FFFFFF;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: var(--saufra-canvas);
+    color: var(--saufra-navy);
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Fraunces', Georgia, serif;
+    text-wrap: balance;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
